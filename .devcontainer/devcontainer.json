@@ -1,14 +1,13 @@
 {
   "name": "TP Resueltos - App Web Prog",
-
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-
   "customizations": {
     "vscode": {
       "extensions": [
         "ritwickdey.liveserver",
         "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "formulahendry.code-runner"
       ],
       "settings": {
         "editor.formatOnSave": true,
@@ -16,6 +15,5 @@
       }
     }
   },
-
   "forwardPorts": [5500]
 }
