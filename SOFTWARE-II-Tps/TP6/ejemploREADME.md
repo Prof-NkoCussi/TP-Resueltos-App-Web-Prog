@@ -22,7 +22,8 @@ Abrir la terminal y ejecutar:
 
 ```bash
 npm init -y
-npm install express figlet
+npm install figlet
+npm install express 
 ```
 
 ## 4. Ejecución
